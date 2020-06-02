@@ -8,7 +8,7 @@ with open("README.md", "r") as fh:
 
 setup(
     name = "maqal",
-    version = "0.1.1",
+    version = "1.0.0",
     keywords = ("uyghur", "uighur","maqal", "makal", "temsil", "tamsil"),
     description = "Uighur language idiom tool",
     long_description = long_description,
