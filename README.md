@@ -10,13 +10,12 @@
 
 ```python
 
+# pip install maqal
+
 from maqal import Maqal
 
 maqal = Maqal()
 allLines = maqal.search("%") # all data list
 randomLine = maqal.random() # random data content
 
-
 ```
-
-
