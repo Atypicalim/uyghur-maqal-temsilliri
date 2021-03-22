@@ -16,7 +16,7 @@ class Maqal():
 
     def __init__(self):
         exist = os.path.isfile(self.dbFile)
-        self.dbObject  = sqlite3.connect(self.dbFile)
+        self.dbObject  = sqlite3.connect(self.dbFile, check_same_thread=False)
         if not exist:
             self.readFile()
             self.makeDb()
